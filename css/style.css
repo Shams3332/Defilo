@@ -1,0 +1,272 @@
+body{
+  background-color:#f5f5f5;
+}
+header{
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/asset11.jpeg);
+}
+.header-content h1{
+  font-size: 72px;
+}
+.header-content p{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+.header-content p::after{
+  content: "" ;
+  animation: typing 10s infinite alternate;
+
+}
+@keyframes typing {
+  0% {
+    content: " |";
+  }
+  5% {
+    content: " Fr|";
+  }
+  10% {
+    content: " Free|";
+  }
+  15% {
+    content: " Freela|";
+  }
+  20% {
+    content: " Freelancer|";
+  }
+  25% {
+    content: " |";
+  }
+  30% {
+    content: " Ph|";
+  }
+  35% {
+    content: " Photo|";
+  }
+  40% {
+    content: " Photogra|";
+  }
+  45% {
+    content: " Photograph|";
+  }
+  50% {
+    content: " Photographer|";
+  }
+  55% {
+    content: " |";
+  }
+  60% {
+    content: " De|";
+  }
+  65% {
+    content: " Desi|";
+  }
+  70% {
+    content: " Design|";
+  }
+  75% {
+    content: " Designer|";
+  }
+
+  80% {
+    content: " De|";
+  }
+  85% {
+    content: " Desi|";
+  }
+  90% {
+    content: " Design|";
+  }
+  100% {
+    content: " Designer|";
+  }
+}
+.logo{
+  font-size: xx-large;
+  font-weight: 500;
+}
+nav li{
+  font-size: large;
+  font-weight: 500;
+}
+nav li a:hover{
+  border-bottom: 2px solid #ffff;
+}
+/* ---------end header------ */
+.prog .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+.line {
+  background-color:#0078ff;
+  width: 18%;
+  height: 3px;
+}
+.about-me p{
+  color: #4e4e4e;
+  font-size: larger;
+  line-height: 3rem;
+  font-weight: lighter;
+}
+.sec1 p{
+  color:#4e4e4e ;
+}
+.about-me p{
+  line-height: 30px;
+}
+/* ------end section 1---- */
+.line2 {
+  background-color:#0078ff;
+  width: 3%;
+  height: 4px;
+}
+.serv h2{
+  font-size: 48px;
+  color: #1e1e1e;
+}
+.serv p{
+  color: #4e4e4e;
+  font-size: large;
+}
+.icon{
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  border: 6px solid #0078ff;
+}
+.icon:hover{
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.sec2 h4{
+  color:#1e1e1e ;
+  margin-bottom: 1rem;
+}
+.sec2 p{
+  color: #4e4e4e;
+
+}
+/* end section 2 */
+.bg-image{
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec3{
+  position: relative;
+  padding: 8rem 0;
+}
+.sec3-color{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+.sec3 .icon2{
+  color: #fff;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    border: 10px solid #f5f5f5;
+    padding: 2rem;
+}
+.sec3 p{
+  color: #fff;
+  font-size: larger;
+}
+.sec3 span{
+  font-weight: 600;
+  font-size: xx-large;
+}
+/* ---------end section 3---------- */
+
+/* .sec4 img{
+  transform: scale(1.1);
+  overflow: hidden;
+} */
+
+/* ------end section 4----- */
+.carousel-indicators [data-bs-target]{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+/* end section 5 */
+.sec6 a{
+  text-decoration: none;
+  color: #1e1e1e;
+}
+.sec6 a:hover{
+  color: #0078ff;
+}
+.sec6-foot img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.sec6-content{
+  position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.sec3 textarea{
+  padding: 12px 20px 60px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.sec3 input{
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: #4e4e4e;
+}
+.icons :hover{
+  transition: all 500ms ease;
+  box-shadow: 0 0 0 10px #cde1f8;
+  border: 1px solid #0078ff;
+}
+.sec3 button{
+  background-color: #0078ff;
+  border: #ccc;
+  color: #fff;
+}
+.sec6-content p{
+  color: #4e4e4e;
+  font-size: large;
+  line-height: 2.5rem;
+  font-weight: lighter;
+}
+.icon4{
+    color: #fff;
+    width: 1rem;
+    height: 1rem;
+    border: 5px solid #0078ff;
+    padding: 1rem;
+    margin-right: .5rem;
+}
+.icon4:hover{
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 5px #cde1f8;
+}
+.icon3 i{
+  font-size: xx-large;
+}
+.card-img :hover{
+  transform: scale(1.2);
+  transition: all 1s ease 0s;
+}
